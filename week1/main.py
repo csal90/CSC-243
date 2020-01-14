@@ -35,15 +35,28 @@
 # printNums(str) prints out even numbers if str == 'even' or odd numbers if str == 'odd'.
 # The function prompt a message "Enter a whole number: ", get a number n from the user then print out either even numbers or odd numbers until n
 
-def printNums(str):
-    n = int(input('Enter a whole number: '))
+# def printNums(str):
+#     n = int(input('Enter a whole number: '))
+#
+#     if str == 'even':
+#         for num in range(0, n + 1, 2):
+#             print(num, end=' ')
+#     elif str == 'odd':
+#         for num in range(0, n + 2, 2):
+#             print(num, end=' ')
+#
+#
+# printNums('')
 
-    if str == 'even':
-        for num in range(0, n + 1, 2):
-            print(num, end=' ')
-    elif str == 'odd':
-        for num in range(0, n + 2, 2):
-            print(num, end=' ')
-
-
-printNums('odd')
+# #Write statements to do the following:
+# # str='This will be a sunny day.'
+# # 1. assign a variable n to the count of 'day' in str
+# str = 'This will be a sunny day'
+# n = str.count('day')
+# print(n)
+# # 2. assign a variable pos to the location/index of string 'sunny' in str
+# pos = str.find('sunny')
+# print(pos)
+# # 3. replace 'sunny' with 'cloudy'
+# str.replace('sunny', 'cloudy')
+# print(str)
