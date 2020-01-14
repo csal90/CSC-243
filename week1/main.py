@@ -60,3 +60,30 @@
 # # 3. replace 'sunny' with 'cloudy'
 # str.replace('sunny', 'cloudy')
 # print(str)
+
+# login(l) takes a list l consists of strings or names, prompts a message to 'Enter your login id: ' to the user and get a login id from the user, then it check whether the login id is within the list l
+# def login(l):
+#     loginId = input('Enter your login id: ')
+#     if loginId in l:
+#         print('login successfully')
+#     else:
+#         print('invalid login id')
+#
+#
+# login(['chris', 'nick', 'emily'])
+
+# checkTemp(temp) takes integer parameter temp, and prints a message depending the value of temp
+# prints 'it's hot' when temp > 86
+# prints 'It's cool' when temp is > 0 and temp <= 86
+# prints "It's freezing" when temp <= 0
+
+# def checkTemp(temp):
+#     if temp > 86:
+#         print("It's hot")
+#     elif 0 < temp <= 86:
+#         print("It's cool")
+#     else:
+#         print("It's freezing")
+#
+#
+# checkTemp(12)
