@@ -1,11 +1,20 @@
-# charSet(low, high) that prints all the characters who ASCII code are between
-# low and high, including both of them.
-# e.g charSet(97, 99)
-# 'a'
-# 'b'
-# 'c'
+# getNumebers() will get positive numbers from the user and returns a list
+# of the entered numbers. It will prompt the user to enter a number until
+# the user enters zero
 
-def charSet(low, high):
-    for i in range(low, high+1):
-        print(chr(i))
+# getNumbers()
+# Enter a positive number: 10
+# Enter a positive number: 11
+# Enter a positive number: 3
+# Enter a positive number: 0
+
+def getNumbers():
+    l = []
+    while True:
+        num = int(input('Enter a positive number: '))
+        if num == 0:
+            break
+        l.append(num)
         
+        
+
