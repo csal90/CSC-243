@@ -27,14 +27,16 @@ def divisors(n):
             l.append(num)
     return l
 
+
 # Counter loop
 l = [1, 3, 5, 7, 9]
 for in range(0, len(l)):
     print(l[i])
 
+
 # Counter loop - Write a function ascending(l) to check whether a list of numbers is sorted in order
 def ascending(l):
-    for i in range(len(l)-1):
-        if l[i]>l[i]:
+    for i in range(len(l) - 1):
+        if l[i] > l[i]:
             return False
     return True

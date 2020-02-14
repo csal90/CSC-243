@@ -12,15 +12,15 @@
 
 
 import random
+
+
 def guess(n):
     while True:
-        n=random.randint(1, n)
-        i=int(input('Enter your guess: '))
+        n = random.randint(1, n)
+        i = int(input('Enter your guess: '))
         if i < n:
             print('Your number is too small')
         elif i > n:
             print('Your number is too large')
         elif i == n:
             break
-        
-    

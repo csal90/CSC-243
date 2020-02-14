@@ -8,4 +8,3 @@ while True:
     if name == '.':
         break
     l.append(name)
-    

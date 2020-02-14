@@ -21,13 +21,11 @@ def names():
         if studentname == '':
             break
         elif studentname in namedict:
-            namedict[studentname] = namedict[studentname] + 1 
+            namedict[studentname] = namedict[studentname] + 1
         else:
             namedict[studentname] = 1
     for keyvalue in namedict:
         if namedict[keyvalue] > 1:
-            print(keyvalue + ' has been entered '+ str(namedict[keyvalue]) +' times')
+            print(keyvalue + ' has been entered ' + str(namedict[keyvalue]) + ' times')
         if namedict[keyvalue] == 1:
             print(keyvalue + ' has been entered 1 time')
-
-    

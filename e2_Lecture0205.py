@@ -4,7 +4,7 @@ def multiples():
     multhree = set()
     mulfive = set()
     mulseven = set()
-    for num in range(1,51):
+    for num in range(1, 51):
         if num % 3 == 0:
             multhree.add(num)
         if num % 5 == 0:
@@ -12,4 +12,3 @@ def multiples():
         if num % 7 == 0:
             mulseven.add(num)
     return multhree, mulfive, mulseven
-

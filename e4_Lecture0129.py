@@ -8,17 +8,15 @@
 def printMatrix(m):
     for r in range(len(m)):
         for c in range(len(m)):
-            print(m[r] [c], end=' ')
+            print(m[r][c], end=' ')
         print()
     pass
 
-
 def increment(m, num):
-    'Increment every element of m by num'
+    # Increment every element of m by num
     for r in range(len(m)):
         for c in range(len(m)):
-            print(m[r] [c]+num, end=' ')
-            m[r] [c] += num # writing back to the matrix
+            print(m[r][c] + num, end=' ')
+            m[r][c] += num  # writing back to the matrix
         print()
-    pass 
-h
+    pass
