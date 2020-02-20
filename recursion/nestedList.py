@@ -18,4 +18,4 @@ def listPrint(lst):
             listPrint(lst[0])
         else:  # n is not a list itself
             print(lst[0])
-        listPrint(lst[1:])
+        listPrint(lst[1:])  # takes care rest of list
