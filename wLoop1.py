@@ -1,4 +1,4 @@
-# getNumebers() will get positive numbers from the user and returns a list
+# getNumbers() will get positive numbers from the user and returns a list
 # of the entered numbers. It will prompt the user to enter a number until
 # the user enters zero
 
