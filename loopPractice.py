@@ -30,7 +30,7 @@ def divisors(n):
 
 # Counter loop
 l = [1, 3, 5, 7, 9]
-for in range(0, len(l)):
+for i in range(0, len(l)):
     print(l[i])
 
 
