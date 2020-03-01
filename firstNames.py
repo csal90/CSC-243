@@ -7,5 +7,3 @@ def firstNames(lst):
     for name in lst:
         l.append(name.split(',')[1])
     return l
-
-
