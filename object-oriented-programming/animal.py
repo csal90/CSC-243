@@ -15,19 +15,12 @@ class Animal:
     def speak(self):
         pass
 
+    def __repr__(self):  # repr = representation
+        return Animal.name + ' is of species' + self.species
+
+    def __str__(self):
+        return 'This object belongs to class ' + Animal.name
 
 class Dog(Animal):  # inherits attributes of Animal (Dog is a subclass)
     def speak(self):
         print('Bark!Bark!Bark!')
-
-
-class Book:
-    def __init__(self, fname):  # open file and read
-        self.f = open(fname, 'r')
-
-    def read(self, size):  # read file and input character size you want to return
-        s = self.f.read(size)
-        print(s)
-
-    def __del__(self):  # delete object
-        self.f.close()
